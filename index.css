@@ -1,3 +1,83 @@
-.image {
+body {
+    background-color: #A4DED9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: #5E4A35;
+}
+
+img {
+    border-style: solid;
+    border-width: 50px;
+    border-color: white;
+}
+
+h1 {
+    color: #413325;
+}
+
+h2 {
+    color: #5E4A35;
+}
+
+.bordered-image {
     border-style: groove;
+    border-width 300px;
+}
+
+.flexbox-center {
+    display: flex;
+    justify-content: center;
+}
+
+.primary-list {
+    color: #296D39;
+}
+
+.link-button-text {
+    padding: 5px;
+    color: #DEC1A4;
+    background-color: #355E5B;
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+.link-button-link {
+    text-decoration: none;
+    color: #68DEB6;
+}
+
+#butter-dog {
+    width: 355px;
+    height: 360px;
+    object-fit: cover;
+}
+
+#You-are-doing-me-a-frighten-puggorino {
+    margin-top: 50px;
+}
+
+#dog-dance {
+    border-radius: 50%;
+    margin: 50px;
+}
+
+#cheems {
+    width: 355px;
+    height: 450px;
+}
+
+#unordered-list-1 {
+    margin-bottom: 10px;
+}
+
+#wrinkler-heckin {
+    margin-bottom: 50px;
+}
+
+#you-are-doing-me-a-shock {
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
